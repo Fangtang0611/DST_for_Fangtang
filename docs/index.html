@@ -1,1 +1,160 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=favicon.ico><title>DST_For_Fangtang</title><link href=css/chunk-6e2f6c92.0adb4a78.css rel=prefetch><link href=js/chunk-6e2f6c92.c8d1fd99.js rel=prefetch><link href=css/app.be6374c2.css rel=preload as=style><link href=css/chunk-vendors.2ac5db4b.css rel=preload as=style><link href=js/app.e0637a8d.js rel=preload as=script><link href=js/chunk-vendors.ba179df2.js rel=preload as=script><link href=css/chunk-vendors.2ac5db4b.css rel=stylesheet><link href=css/app.be6374c2.css rel=stylesheet></head><body><noscript><strong>We're sorry but DST_For_Fangtang doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=js/chunk-vendors.ba179df2.js></script><script src=js/app.e0637a8d.js></script></body></html>
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<meta charset=utf-8>
+		<meta http-equiv=X-UA-Compatible content="IE=edge">
+		<meta name=viewport content="width=device-width,initial-scale=1">
+		<link rel=icon href=favicon.ico>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<title>DST_For_Fangtang</title>
+		<style type="text/css">
+			html, body {
+				position: relative;
+				height: 100%;
+			}
+			.swiper-container {
+				width: 100%;
+				height: 300px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.swiper-slide {
+				background-size: cover;
+				background-position: center;
+			}
+			.gallery-top {
+				height: 80%;
+				width: 100%;
+			}
+			.gallery-thumbs {
+				height: 20%;
+				box-sizing: border-box;
+				padding: 10px 0;
+			}
+			.gallery-thumbs .swiper-slide {
+				width: 25%;
+				height: 100%;
+				opacity: 0.4;
+			}
+			.gallery-thumbs .swiper-slide-thumb-active {
+				opacity: 1;
+			}
+			.video{
+				display: flex;
+				justify-content: space-around;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Swiper轮播 -->
+		<div class="swiper-container gallery-top">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background-image:url(imgs/banner/1.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/2.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/3.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/4.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/5.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/6.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/7.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/8.jpg)"></div>
+			</div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next swiper-button-white"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>
+		</div>
+		<div class="swiper-container gallery-thumbs">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background-image:url(imgs/banner/1.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/2.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/3.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/4.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/5.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/6.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/7.jpg)"></div>
+				<div class="swiper-slide" style="background-image:url(imgs/banner/8.jpg)"></div>
+			</div>
+		</div>
+		<!-- Swiper轮播 end -->
+		
+		<div class="video">
+			<video width="19%" height="" loop muted controls="controls">
+				<source src="myvideo.mp4" type="video/mp4"></source>
+				<source src="myvideo.ogv" type="video/ogg"></source>
+				<source src="video/microtrailer.webm" type="video/webm"></source>
+				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
+					<param name="movie" value="myvideo.swf" />
+					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+				</object>
+				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer.webm">下载视频</a>
+			</video>
+			<video width="19%" height="" loop muted controls="controls">
+				<source src="myvideo.mp4" type="video/mp4"></source>
+				<source src="myvideo.ogv" type="video/ogg"></source>
+				<source src="video/microtrailer1.webm" type="video/webm"></source>
+				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
+					<param name="movie" value="myvideo.swf" />
+					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+				</object>
+				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer1.webm">下载视频</a>
+			</video>
+			<video width="19%" height="" loop muted controls="controls">
+				<source src="myvideo.mp4" type="video/mp4"></source>
+				<source src="myvideo.ogv" type="video/ogg"></source>
+				<source src="video/microtrailer3.webm" type="video/webm"></source>
+				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
+					<param name="movie" value="myvideo.swf" />
+					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+				</object>
+				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer3.webm">下载视频</a>
+			</video>
+			<video width="19%" height="" loop muted controls="controls">
+				<source src="myvideo.mp4" type="video/mp4"></source>
+				<source src="myvideo.ogv" type="video/ogg"></source>
+				<source src="video/microtrailer4.webm" type="video/webm"></source>
+				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
+					<param name="movie" value="myvideo.swf" />
+					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+				</object>
+				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer4.webm">下载视频</a>
+			</video>
+			<video width="19%" height="" loop muted controls="controls">
+				<source src="myvideo.mp4" type="video/mp4"></source>
+				<source src="myvideo.ogv" type="video/ogg"></source>
+				<source src="video/microtrailer5.webm" type="video/webm"></source>
+				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
+					<param name="movie" value="myvideo.swf" />
+					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+				</object>
+				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer5.webm">下载视频</a>
+			</video>
+		</div>
+		
+		
+	</body>
+</html>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	//两个了轮播运行的顺序不能交换 先缩略图再大图
+	//缩略图
+	var galleryThumbs = new Swiper('.gallery-thumbs', {
+		spaceBetween: 10,
+		// loop: true,
+		slidesPerView: 4,
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+	});
+	//大图
+	var galleryTop = new Swiper('.gallery-top', {
+		spaceBetween: 10,
+		loop: true,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		thumbs: {
+			swiper: galleryThumbs
+		}
+	});
+</script>
