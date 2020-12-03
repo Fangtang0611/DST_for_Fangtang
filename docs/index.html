@@ -1,160 +1,564 @@
 <!DOCTYPE html>
-<html lang=en>
-	<head>
-		<meta charset=utf-8>
-		<meta http-equiv=X-UA-Compatible content="IE=edge">
-		<meta name=viewport content="width=device-width,initial-scale=1">
-		<link rel=icon href=favicon.ico>
-		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
-		<link rel="stylesheet" type="text/css" href="css/base.css"/>
-		<title>DST_For_Fangtang</title>
-		<style type="text/css">
-			html, body {
-				position: relative;
-				height: 100%;
-			}
-			.swiper-container {
-				width: 100%;
-				height: 300px;
-				margin-left: auto;
-				margin-right: auto;
-			}
-			.swiper-slide {
-				background-size: cover;
-				background-position: center;
-			}
-			.gallery-top {
-				height: 80%;
-				width: 100%;
-			}
-			.gallery-thumbs {
-				height: 20%;
-				box-sizing: border-box;
-				padding: 10px 0;
-			}
-			.gallery-thumbs .swiper-slide {
-				width: 25%;
-				height: 100%;
-				opacity: 0.4;
-			}
-			.gallery-thumbs .swiper-slide-thumb-active {
-				opacity: 1;
-			}
-			.video{
-				display: flex;
-				justify-content: space-around;
-			}
-		</style>
-	</head>
-	<body>
-		<!-- Swiper轮播 -->
-		<div class="swiper-container gallery-top">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide" style="background-image:url(imgs/banner/1.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/2.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/3.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/4.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/5.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/6.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/7.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/8.jpg)"></div>
-			</div>
-			<!-- Add Arrows -->
-			<div class="swiper-button-next swiper-button-white"></div>
-			<div class="swiper-button-prev swiper-button-white"></div>
-		</div>
-		<div class="swiper-container gallery-thumbs">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide" style="background-image:url(imgs/banner/1.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/2.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/3.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/4.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/5.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/6.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/7.jpg)"></div>
-				<div class="swiper-slide" style="background-image:url(imgs/banner/8.jpg)"></div>
-			</div>
-		</div>
-		<!-- Swiper轮播 end -->
-		
-		<div class="video">
-			<video width="19%" height="" loop muted controls="controls">
-				<source src="myvideo.mp4" type="video/mp4"></source>
-				<source src="myvideo.ogv" type="video/ogg"></source>
-				<source src="video/microtrailer.webm" type="video/webm"></source>
-				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
-					<param name="movie" value="myvideo.swf" />
-					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
-				</object>
-				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer.webm">下载视频</a>
-			</video>
-			<video width="19%" height="" loop muted controls="controls">
-				<source src="myvideo.mp4" type="video/mp4"></source>
-				<source src="myvideo.ogv" type="video/ogg"></source>
-				<source src="video/microtrailer1.webm" type="video/webm"></source>
-				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
-					<param name="movie" value="myvideo.swf" />
-					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
-				</object>
-				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer1.webm">下载视频</a>
-			</video>
-			<video width="19%" height="" loop muted controls="controls">
-				<source src="myvideo.mp4" type="video/mp4"></source>
-				<source src="myvideo.ogv" type="video/ogg"></source>
-				<source src="video/microtrailer3.webm" type="video/webm"></source>
-				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
-					<param name="movie" value="myvideo.swf" />
-					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
-				</object>
-				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer3.webm">下载视频</a>
-			</video>
-			<video width="19%" height="" loop muted controls="controls">
-				<source src="myvideo.mp4" type="video/mp4"></source>
-				<source src="myvideo.ogv" type="video/ogg"></source>
-				<source src="video/microtrailer4.webm" type="video/webm"></source>
-				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
-					<param name="movie" value="myvideo.swf" />
-					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
-				</object>
-				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer4.webm">下载视频</a>
-			</video>
-			<video width="19%" height="" loop muted controls="controls">
-				<source src="myvideo.mp4" type="video/mp4"></source>
-				<source src="myvideo.ogv" type="video/ogg"></source>
-				<source src="video/microtrailer5.webm" type="video/webm"></source>
-				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
-					<param name="movie" value="myvideo.swf" />
-					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
-				</object>
-				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="video/microtrailer5.webm">下载视频</a>
-			</video>
-		</div>
-		
-		
-	</body>
-</html>
-<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-	//两个了轮播运行的顺序不能交换 先缩略图再大图
-	//缩略图
-	var galleryThumbs = new Swiper('.gallery-thumbs', {
-		spaceBetween: 10,
-		// loop: true,
-		slidesPerView: 4,
-		freeMode: true,
-		watchSlidesVisibility: true,
-		watchSlidesProgress: true,
-	});
-	//大图
-	var galleryTop = new Swiper('.gallery-top', {
-		spaceBetween: 10,
-		loop: true,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-		thumbs: {
-			swiper: galleryThumbs
-		}
-	});
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+
+    <title>写个抽奖机玩玩(暂不兼容移动端）</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: black;
+        }
+
+        #app {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .center-container {
+            position: relative;
+            width: 40rem;
+            height: 30rem;
+            background-color: rgba(193, 248, 255, 0.11);
+            border: 1px solid rgba(131, 255, 236, 0.692);
+            border-radius: 4px;
+        }
+
+        .center-container .title {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: -4rem;
+            color: rgba(198, 255, 246, 0.932);
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+
+        .center-container .btn-list {
+            width: 4rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+
+        }
+
+        .btn-list.left {
+            left: -4rem;
+        }
+
+        .btn-list.right {
+            right: -4rem;
+        }
+
+        .btn-list .btn {
+            margin: 0 0 1rem;
+            opacity: 0.8;
+            color: rgb(218, 249, 255);
+            background-color: rgb(255, 255, 255, .2);
+        }
+
+        .content {
+            width: 100%;
+            height: 100%;
+        }
+
+        .content .top {
+            padding: 2rem 0 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .history {
+            height: 21rem;
+            margin: 0 1.6rem;
+            overflow: auto
+        }
+
+        .history .titlespan {
+            color: rgb(209, 246, 255);
+        }
+
+        .el-divider__text {
+            color: rgb(209, 246, 255);
+            background-color: rgba(21, 27, 28);
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas height="100%" width="100%" style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 1;"  id="canvas"></canvas>
+    <div id="app">
+
+        <div class="center-container">
+            <div class="title">欢迎来到随便瞎写的抽奖系统</div>
+            <div class="left btn-list">
+                <el-tooltip content="点击查看奖规则" placement="left" effect="dark" class="btn">
+                    <el-button icon="el-icon-notebook-2" class="btn" circle @click="show(1)"></el-button>
+                </el-tooltip>
+                <el-tooltip content="奖品池" placement="left" effect="dark" class="btn">
+                    <el-button icon="el-icon-present" circle @click="show(2)"></el-button>
+                </el-tooltip>
+            </div>
+            <div class="right btn-list">
+                <el-tooltip content="中奖记录" placement="right" effect="dark" class="btn">
+                    <el-button icon="el-icon-search" class="btn" circle @click="show(3)"></el-button>
+                </el-tooltip>
+                <el-tooltip content="开奖公示" placement="right" effect="dark" class="btn">
+                    <el-button icon="el-icon-trophy" circle  @click="show(4)"></el-button>
+                </el-tooltip>
+                <el-tooltip content="你不知道" placement="right" effect="dark" class="btn">
+                    <el-button icon="el-icon-s-opportunity" circle  @click="show(5)"></el-button>
+                </el-tooltip>
+            </div>
+            <div class="content">
+                <div class="top">
+                    <el-button size="medium" type="primary" @click="getPresent">开始抽奖</el-button>
+                </div>
+                <el-divider> 中奖记录 </el-divider>
+
+                <div class="history">
+                    <el-table :data="getAwardData">
+                        <el-table-column property="p_index" label="序号" width="50"></el-table-column>
+                        <el-table-column property="id" label="编号" width="50"></el-table-column>
+                        <el-table-column property="name" label="能力名称" ></el-table-column>
+                        <el-table-column property="date" label="时间" ></el-table-column>
+                        <el-table-column property="type" label="类型" width="50"></el-table-column>
+                        <el-table-column property="level" label="等级" width="50"></el-table-column>
+                    </el-table>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <el-dialog title="抽奖规则" :visible="showrule" width="30%" :before-close="handleClose">
+            <p>首先是，还没写完，数据都是随便写的</p>
+            <span>{{ruleTXT}}</span>
+            <span slot="footer" class="dialog-footer">
+                <el-button type="primary" @click="showrule = false">确 定</el-button>
+            </span>
+        </el-dialog>
+        <el-dialog title="奖品池" :visible="showaward" width="60%" :before-close="handleClose">
+            <el-table :data="awardData">
+               
+                <el-table-column property="name" label="能力名称" width="200"></el-table-column>
+                <el-table-column property="type" label="类型" width="50"></el-table-column>
+                <el-table-column property="level" label="等级" width="50"></el-table-column>
+                <el-table-column property="use" label="消耗或发动条件" width="200"></el-table-column>
+                <el-table-column property="area" label="作用对象" width="100"></el-table-column>
+                <el-table-column property="desc" label="效果"></el-table-column>
+            </el-table>
+            <span slot="footer" class="dialog-footer">
+                <el-button type="primary" @click="showaward = false">确 定</el-button>
+            </span>
+        </el-dialog>
+        <el-dialog title="中奖记录" :visible="showhistory" width="60%" :before-close="handleClose">
+            <el-table :data="getAwardData">
+                <el-table-column property="id" label="编号" width="50"></el-table-column>
+                <el-table-column property="name" label="能力名称" width="100"></el-table-column>
+                <el-table-column property="type" label="类型" width="50"></el-table-column>
+                <el-table-column property="level" label="等级" width="50"></el-table-column>
+                <el-table-column property="use" label="消耗或发动条件" width="120"></el-table-column>
+                <el-table-column property="area" label="作用对象" width="80"></el-table-column>
+                <el-table-column property="desc" label="效果"></el-table-column>
+            </el-table>
+            <span slot="footer" class="dialog-footer">
+                <el-button type="primary" @click="showhistory = false">确 定</el-button>
+            </span>
+        </el-dialog>
+    </div>
+
+
+</body>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+<script>
+    //抽奖活动名 （每次抽奖活动编辑一定要修改这个字段！可以清空之前玩家的抽奖记录！）
+    var dateName = "冬至大抽奖"
+    //奖品列表（注意 奖品id对应奖品名 奖品描述）
+    var awardList = [
+        { id: 1, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 2, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 3, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 4, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 5, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 6, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 7, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 8, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 9, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 10, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 11, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { id: 12, name: '一号奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+    ]
+    //奖品展示列表
+    var show_awardList = [
+        { name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+        { name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+    ]
+     //往期开奖结果统计列表
+     /*
+        数据格式（就是每次开奖结果记录） （...的意思是后面可以跟上同格式的多条数据）
+         {
+            date:'开奖时间',
+            dateName:'抽奖活动名',
+            awardData:[  （这个是中奖结果数据）
+                {
+                    teamName:'队伍名称',
+                    list:[
+                    { luckyPL:'中奖玩家',id: 编号,name: '能力名称', type: '类型', level: '等级', use: '消耗或发动条件', area: '作用对象', desc: '效果', other: '其他待扩充 可以空着不会显示的' },
+                    ...
+                    ]
+                },
+                ...
+            ]
+
+         },
+
+     */
+     var total_historyList = [
+         {
+            date:'2020-11-11',
+            dateName:'光棍节抽奖',
+            awardData:[
+                {
+                    teamName:'过去队',
+                    list:[
+                    { luckyPL:'令言',id: 1,name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+                    { luckyPL:'令言',id: 1,name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+                    { luckyPL:'令言',id: 1,name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+                    ]
+                },
+                {
+                    teamName:'现在队',
+                    list:[
+                    { luckyPL:'米饭',id: 1,name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+                    { luckyPL:'米饭',id: 1,name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+                    { luckyPL:'米饭',id: 1,name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+                    ]
+                },
+                {
+                    teamName:'未来队',
+                    list:[
+                    { luckyPL:'库德',id: 1,name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+                    { luckyPL:'库德',id: 1,name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+                    { luckyPL:'库德',id: 1,name: '神秘奖品', type: '商品', level: 'd', use: '消耗耐久', area: '单人', desc: '就是一个不知道什么玩意的道具？', other: '' },
+                    ]
+                },
+            ]
+         },
+    ]
+
+    //抽奖规则 （本来想弄成富文本格式的，但是主神还要用富文本编辑器复制代码过来 所以先用字符串，有需要可以我来编辑内容（主神也可以自己学学写html代码XD））
+    var ruleTXT = "点抽奖，抽，看记录截图，有时间戳 抽中同一个，时间早的拿到，另一个重抽，完"
+
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            showrule: false,
+            showaward: false,
+            showhistory: false,
+            awardData: show_awardList,
+            ruleTXT: ruleTXT,
+            getAwardData: [],
+            awardList:awardList,
+            dateName:dateName
+
+        },
+        created:function(){  
+            this.loadData()
+        },
+        methods: {
+            loadData() {
+                if(JSON.parse(localStorage.getItem('dateName')) == this.dateName){
+                    localStorage.setItem('dateName',JSON.stringify(this.dateName))
+                    this.getAwardData = JSON.parse(localStorage.getItem('getAwardData')) || []
+                }else{
+                    localStorage.removeItem('getAwardData')
+                    this.getAwardData = []
+                    localStorage.setItem('dateName',JSON.stringify(this.dateName))
+                    this.loadData()
+                }                
+            },
+            show(id) {
+                if (id == 1) {
+                    this.showrule = true
+                } else if (id == 2) {
+                    this.showaward = true
+                }else if (id == 3) {
+                    this.showhistory = true
+                }else if (id == 4) {
+                    this.$confirm('还没做好！XD')
+                }else if (id == 5) {
+                    this.$confirm('你不知道')
+                }
+
+            },
+            handleClose(done) {
+                this.showrule = false
+                this.showaward = false
+                this.showhistory = false
+            },
+            getPresent() {
+                let reset = false
+                let present = {}
+                let present_id = randomNum(1, this.awardList.length)
+                if(this.getAwardData.length>0){
+                    this.getAwardData.forEach((item,index) => {
+                    if(item.id == present_id){
+                        reset = true
+                    }
+                });
+                }
+                
+                if(reset){
+                    if(this.getAwardData.length<this.awardList.length){
+                        this.getPresent();
+                    }else{
+                        this.$confirm('还抽！抽到底儿了还抽！抽你哦！')
+                    }
+                   
+                }else{
+                    this.awardList.forEach((item,index) => {
+                    if(item.id == present_id){
+                        let time = parseInt(new Date().getTime() / 1000);
+                        item.time = time
+                        item.p_index = index
+                        item.date = timestampToTime(time)
+                        this.getAwardData.push(item)
+                        localStorage.setItem('getAwardData',JSON.stringify(this.getAwardData))
+                    }
+                });
+                   
+                }
+            }
+        }
+
+
+    })
+    //生成从minNum到maxNum的随机数
+    function randomNum(minNum, maxNum) {
+        switch (arguments.length) {
+            case 1:
+                return parseInt(Math.random() * minNum + 1, 10);
+                break;
+            case 2:
+                return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+                //或者 Math.floor(Math.random()*( maxNum - minNum + 1 ) + minNum );
+                break;
+            default:
+                return 0;
+                break;
+        }
+    } 
+    function timestampToTime(timestamp) {
+	    var date = new Date(timestamp * 1000);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+	    var Y = date.getFullYear() + '-';
+	    var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+	    var D = (date.getDate() + 1 < 10 ? '0' + (date.getDate() + 1) : date.getDate() + 1) + ' ';
+	    var h = (date.getHours() + 1 < 10 ? '0' + (date.getHours() + 1) : date.getHours() + 1) + ':';
+	    var m = (date.getMinutes() + 1 < 10 ? '0' + (date.getMinutes() + 1) : date.getMinutes() + 1) + ':';
+	    var s = (date.getSeconds() + 1 < 10 ? '0' + (date.getSeconds() + 1) : date.getSeconds() + 1);
+	    return Y + M + D + h + m + s;
+	}
 </script>
+<script>
+    var canvas,
+        ctx,
+        width,
+        height,
+        size,
+        lines,
+        tick;
+    
+    function line() {
+        this.path = [];
+        this.speed = rand(10, 20);
+        this.count = randInt(10, 30);
+        this.x = width / 2, +1;
+        this.y = height / 2 + 1;
+        this.target = {
+            x: width / 2,
+            y: height / 2
+        };
+        this.dist = 0;
+        this.angle = 0;
+        this.hue = tick / 5;
+        this.life = 1;
+        this.updateAngle();
+        this.updateDist();
+    }
+    
+    line.prototype.step = function(i) {
+        this.x += Math.cos(this.angle) * this.speed;
+        this.y += Math.sin(this.angle) * this.speed;
+    
+        this.updateDist();
+    
+        if (this.dist < this.speed) {
+            this.x = this.target.x;
+            this.y = this.target.y;
+            this.changeTarget();
+        }
+    
+        this.path.push({
+            x: this.x,
+            y: this.y
+        });
+        if (this.path.length > this.count) {
+            this.path.shift();
+        }
+    
+        this.life -= 0.001;
+    
+        if (this.life <= 0) {
+            this.path = null;
+            lines.splice(i, 1);
+        }
+    };
+    
+    line.prototype.updateDist = function() {
+        var dx = this.target.x - this.x,
+            dy = this.target.y - this.y;
+        this.dist = Math.sqrt(dx * dx + dy * dy);
+    }
+    
+    line.prototype.updateAngle = function() {
+        var dx = this.target.x - this.x,
+            dy = this.target.y - this.y;
+        this.angle = Math.atan2(dy, dx);
+    }
+    
+    line.prototype.changeTarget = function() {
+        var randStart = randInt(0, 3);
+        switch (randStart) {
+            case 0: // up
+                this.target.y = this.y - size;
+                break;
+            case 1: // right
+                this.target.x = this.x + size;
+                break;
+            case 2: // down
+                this.target.y = this.y + size;
+                break;
+            case 3: // left
+                this.target.x = this.x - size;
+        }
+        this.updateAngle();
+    };
+    
+    line.prototype.draw = function(i) {
+        ctx.beginPath();
+        var rando = rand(0, 10);
+        for (var j = 0, length = this.path.length; j < length; j++) {
+            ctx[(j === 0) ? 'moveTo' : 'lineTo'](this.path[j].x + rand(-rando, rando), this.path[j].y + rand(-rando, rando));
+        }
+        ctx.strokeStyle = 'hsla(' + rand(this.hue, this.hue + 30) + ', 80%, 55%, ' + (this.life / 3) + ')';
+        ctx.lineWidth = rand(0.1, 2);
+        ctx.stroke();
+    };
+    
+    function rand(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+    
+    function randInt(min, max) {
+        return Math.floor(min + Math.random() * (max - min + 1));
+    };
+    
+    function init() {
+        canvas = document.getElementById('canvas');
+        ctx = canvas.getContext('2d');
+        size = 30;
+        lines = [];
+        reset();
+        loop();
+    }
+    
+    function reset() {
+        width = Math.ceil(window.innerWidth / 2) * 2;
+        height = Math.ceil(window.innerHeight / 2) * 2;
+        tick = 0;
+    
+        lines.length = 0;
+        canvas.width = width;
+        canvas.height = height;
+    }
+    
+    function create() {
+        if (tick % 10 === 0) {
+            lines.push(new line());
+        }
+    }
+    
+    function step() {
+        var i = lines.length;
+        while (i--) {
+            lines[i].step(i);
+        }
+    }
+    
+    function clear() {
+        ctx.globalCompositeOperation = 'destination-out';
+        ctx.fillStyle = 'hsla(0, 0%, 0%, 0.1';
+        ctx.fillRect(0, 0, width, height);
+        ctx.globalCompositeOperation = 'lighter';
+    }
+    
+    function draw() {
+        ctx.save();
+        ctx.translate(width / 2, height / 2);
+        ctx.rotate(tick * 0.001);
+        var scale = 0.8 + Math.cos(tick * 0.02) * 0.2;
+        ctx.scale(scale, scale);
+        ctx.translate(-width / 2, -height / 2);
+        var i = lines.length;
+        while (i--) {
+            lines[i].draw(i);
+        }
+        ctx.restore();
+    }
+    
+    function loop() {
+        requestAnimationFrame(loop);
+        create();
+        step();
+        clear();
+        draw();
+        tick++;
+    }
+    
+    function onresize() {
+        reset();
+    }
+    
+    window.addEventListener('resize', onresize);
+    
+    init();
+    
+    </script>
+</html>
